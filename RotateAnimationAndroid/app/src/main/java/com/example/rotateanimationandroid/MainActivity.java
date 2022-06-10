@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         final Animation animationRotateCenter = AnimationUtils.loadAnimation(
                 this, R.anim.rotate_center);
         final Animation animationRotateCorner = AnimationUtils.loadAnimation(
-                this, R.anim.rotate_corner);
+                this, R.anim.change_size);
 
         buttonRotateCenter.setOnClickListener(new Button.OnClickListener() {
             @Override

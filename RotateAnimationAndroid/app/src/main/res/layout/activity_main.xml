@@ -19,7 +19,7 @@
             android:id="@+id/rotatecenter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Вращение относительно центра"
+            android:text="Вращать по центру"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Вращение относительно угла картинки"
+            android:text="Изменение размера картинки"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rotatecenter" />
 
